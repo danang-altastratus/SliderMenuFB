@@ -1,0 +1,54 @@
+"#row" : {
+	selectedBackgroundColor: 'white',
+	selectedColor: 'white',
+	backgroundColor: '#f2f3f4'
+},
+"#rowView" : {
+	top: 0,
+	height: 44,
+	layout: 'horizontal'
+},
+"#icon" : {
+	top: 11,
+	left: 10,
+	width: 23,
+	height: 23
+},
+"#title" : {
+	top: 17,
+	left: 10,
+	color: 'black',
+	font: {fontFamily: 'AudiTypeExtended-Normal', fontSize: 10.5, fontStyle: 'normal'}
+},
+"#separatorLine" : {
+	height: 1,
+	bottom: 0,
+	backgroundColor: '#d5d9d8'
+}
+// "Label": {
+  // left: 18,
+	// top: 15,
+	// color: 'black',
+	// font: {
+		// fontFamily: 'AudiTypeExtended-Normal',
+		// fontSize: 10.5,
+		// fontStyle: 'normal'
+	// }
+// },
+// ".vgroup": {
+  // layout: "vertical",
+  // height: 44,
+  // top:0
+// },
+// "#row": {
+  // selectedBackgroundColor : "#666",
+  // selectedColor : 'white',
+  // backgroundColor : "#f2f3f4"
+// },
+// "#icon": {
+  // width: "38dp",
+  // left: "5dp"
+// },
+// "#title": {
+  // left: "48dp"
+// }

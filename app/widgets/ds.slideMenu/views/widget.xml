@@ -1,0 +1,18 @@
+<Alloy>
+	<View id="ContainerView">
+		<View id="leftMenu">
+			<TableView id="leftTableView" />
+		</View>		
+		<View id="movableview">
+			<View id="shadowview">
+				<View id="navview">
+					<Button id="MenuButton" />	
+					<Label id="TitleLabel" />
+					<ImageView id="ACNALogoImage" />
+					<View id="ToolbarBorder" />				
+				</View>
+				<View id="contentview" />
+			</View>
+		</View>
+	</View>
+</Alloy>

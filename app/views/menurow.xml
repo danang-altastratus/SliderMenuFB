@@ -1,0 +1,15 @@
+<Alloy>
+  <!-- <TableViewRow id="row">
+    <ImageView id="icon"/>
+    <View class="vgroup">
+      <Label id="title"/>
+    </View>
+  </TableViewRow> -->
+  <TableViewRow id="row">
+      <View id="rowView">
+          <ImageView id="icon" />
+          <Label id="title" />
+      </View>
+      <View id="separatorLine" />
+  </TableViewRow>
+</Alloy>

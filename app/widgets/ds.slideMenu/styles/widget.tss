@@ -1,0 +1,83 @@
+"#leftMenu": {
+	top: "20dp",
+	left: "0dp",
+	width: "250dp",
+	zIndex: "2",
+	backgroundColor : "white"
+},
+"#leftTableView": {
+	left: "0dp",	
+	backgroundColor : "#f2f3f4",
+	scrollable: false,
+	separatorColor: 'white',
+	separatorStyle: 'none'
+},
+"#navview": {
+	top: "20dp",
+	left: "0dp",
+	width : Ti.Platform.displayCaps.platformWidth,
+	height : "44",
+	backgroundColor: 'white'
+},
+"#movableview": {
+	left: "0",
+	zIndex: "3",
+	width : Ti.Platform.displayCaps.platformWidth,
+	backgroundColor: 'white'
+},
+"#contentview[platform=ios]": {
+	left : "0dp",
+	width : Ti.Platform.displayCaps.platformWidth,
+	height : Ti.UI.Fill,
+	top : "64",
+	backgroundColor : 'green'
+},
+"#contentview[platform=android]": {
+	left : "0dp",
+	width : Ti.Platform.displayCaps.platformWidth,
+	height : Ti.UI.Fill,
+	top : "48",
+	backgroundColor : 'green'
+},
+"#shadowview": {
+	shadowColor:"black",
+    shadowOffset:{x:"0",y:"0"},
+    shadowRadius:"2.5"
+},
+"#MenuButton[platform=ios]": {
+	image : '/ds.slideMenu/nav-menu-btn.png',
+	backgroundColor: 'white',
+	left : "0",
+	top : "0",
+	width : "44",
+	height : "44",
+	style : "none"
+},
+"#MenuButton[platform=android]": {
+	backgroundImage : '/ds.slideMenu/nav-menu-btn.png',
+	backgroundSelectedImage : '/ds.slideMenu/nav-menu-btn-pressed.png',
+	width: 44, 
+	height: 48,
+	backgroundColor : 'white',
+	left: 0
+},
+"#TitleLabel" : {
+	left: 40,
+	font: {
+		fontFamily: 'AudiTypeExtended-ExtendedBold',
+		fontSize: 12.5,
+		fontStyle: 'normal'
+	},
+	color: '#000000',
+	text: 'News'
+},
+"#ACNALogoImage" : {
+	image: '/ds.slideMenu/logo-acna.png',
+	right: 10
+},
+"#ToolbarBorder" : {
+	bottom : 0,
+	height : 1,
+	backgroundColor : "#d5d9d8",
+	width: Ti.UI.FILL
+}
